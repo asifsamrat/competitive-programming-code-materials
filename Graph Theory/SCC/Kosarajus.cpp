@@ -3,7 +3,7 @@ using namespace std;
 
 #define ll long long
 const int INF = 1e9;
-const int N = 1e5 + 10;
+const int N = 2e5 + 10;
 
 vector<int> Graph[N], ReverseGraph[N];
 vector<int> Component(N, -1);
